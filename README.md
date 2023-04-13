@@ -1,5 +1,10 @@
 # ProjetoBancoJavaDio
-um programa para bancos
+um programa para bancos feito em Java
+pega do usuario a agencia da qual o banco é,
+numero do cadastro do usuario e por fim mostra seu saldo,
+isso é a primeira parte do código, a segunda é fazer
+transferencia entre as contas, saber qual está transferindo,
+calcular o valor de saida da conta X, para o valor de entrada na conta Y.
 public abstract class Conta implements IConta{
 	protected static final int AGENCIA_PADRAO = 1;
 
